@@ -113,7 +113,7 @@ def locate_resource(name):
     if os.path.isfile(default_path):
         return default_path
     else:
-        return 'https://github.com/mingcv/Bread_Colab/raw/main/' + name
+        return 'https://raw.githubusercontent.com/realtyc/4512proj/main/' + name
 
 
 def enable_plotly_in_cell():
